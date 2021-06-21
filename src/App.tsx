@@ -1,11 +1,11 @@
-import MainContent from "./components/MainContent";
+import PlaceContent from "./components/PlacesContent";
 import PageHeader from "./components/PageHeader"
 
 function App(): JSX.Element {
     return (
       <>
         <PageHeader />
-        <MainContent />
+        <PlaceContent />
       </>
     );
   }
